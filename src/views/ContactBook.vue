@@ -36,3 +36,16 @@
     <style scoped>
     /* Tuỳ chỉnh CSS nếu cần */
     </style>
+    
+    <ContactCard :contact="activeContact" />
+   <router-link
+   :to="{
+   name: 'contact.edit',
+   params: { id: activeContact._id },
+   }"
+   >
+   <span class="mt-2 badge badge-warning">
+   >
+   </router-link>
+   
+   <i class="fas fa-edit"></i> Hiệu chỉnh</span
