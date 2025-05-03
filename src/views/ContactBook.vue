@@ -14,7 +14,7 @@
     import InputSearch from '@/components/InputSearch.vue'
     import ContactList from '@/components/ContactList.vue'
     import ContactCard from '@/components/ContactCard.vue'
-    import ContactService from '@/services/ContactService'
+    import ContactService from '@/services/contact.service'
     
     const contacts = ref([])
     const searchText = ref('')
